@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sprint 2</title>
+</head>
+<body>
+  <h1>Formulario de datos </h1>
+  <strong>
+  <section>
+
+      <!-- Nombre -->
+      <div>
+        <label for="name">Ingresa tu nombre:</label>
+        <input id="name" type="text" required ><br>
+      </div><br>
+      <!-- apellido -->
+      <div>
+        <label for="lastname">Ingresa tu apellido:</label>
+        <input id="lastname" type="text" required>
+      </div><br>
+      <!-- DNI -->
+      <div>
+        <label for="dni">Ingresa tu DNI</label>
+        <input id="dni" type="text" pattern="^[0|1|2|3|4|5|6|7|8|9]\d{7}$" required>
+      </div><br>
+      <!--DIRECCION -->
+      <div >
+        <label for="address">Ingresa tu direccion</label>
+        <input id="address" type="text" required>
+      </div><br>
+      <!-- BOTON -->
+      <button id="button" type="submit" >Enviar datos</button><br>
+      </strong>
+      <!-- Lugar para mis resultados -->
+      <div id="text">
+
+      </div>
+
+  </section>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
